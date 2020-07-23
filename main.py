@@ -1,5 +1,7 @@
 import subprocess
 
+print('This Program will automaticlly update all python libraries.')
+input('Press any key to continue:')
 
 # Liste der Bibliotheken herrausfinden
 process = subprocess.Popen(['pip', 'list'], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
